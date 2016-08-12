@@ -11,6 +11,7 @@ class HandlebarsC < Formula
     sha256 "213b965b007820824417bb3ac927e068a10a0b0c1c6a2f720ec0269e9e9f0589" => :mavericks
   end
 
+  depends_on "check" => :build
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
